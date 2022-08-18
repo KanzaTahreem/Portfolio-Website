@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KanzaTahreem/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/KanzaTahreem/Portfolio-Website#readme"
+  "homepage": "https://github.com/KanzaTahreem/Portfolio-Website#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
 }
