@@ -46,7 +46,7 @@ body {
   width: 20px;
   height: 20px;
   position: absolute;
-  bottom: -10px;
+  bottom: 38px;
   right: 133px;
 }
 
@@ -54,6 +54,9 @@ body {
   width: 11px;
   height: 10px;
   position: absolute;
+
+  /* top: 10%;
+  left: 30%; */
   top: 100px;
   left: 132.98px;
 }
@@ -62,8 +65,8 @@ body {
   width: 15px;
   height: 15px;
   position: absolute;
-  top: 9px;
-  left: 218px;
+  top: 1%;
+  left: 55%;
 }
 
 .ell-11 {
@@ -78,8 +81,8 @@ body {
   width: 24.14px;
   height: 12.07px;
   position: absolute;
-  bottom: 145px;
-  right: 47px;
+  bottom: 28%;
+  right: 10%;
   transform: rotate(5deg);
 }
 
@@ -87,24 +90,24 @@ body {
   width: 11px;
   height: 11px;
   position: absolute;
-  top: 235px;
-  right: 80px;
+  top: 38%;
+  right: 18%;
 }
 
 .ell-13 {
   width: 30.1px;
   height: 30.1px;
   position: absolute;
-  top: 465px;
-  right: 51px;
+  bottom: 24%;
+  right: 11%;
 }
 
 .ell-15 {
   width: 15px;
   height: 15px;
   position: absolute;
-  bottom: 10px;
-  left: 53px;
+  bottom: 10%;
+  left: 14%;
 }
 
 .rec-4 {
@@ -120,7 +123,7 @@ body {
   height: 41.18px;
   position: absolute;
   right: 136px;
-  bottom: -26px;
+  bottom: 22px;
 }
 
 .rec-6 {
@@ -135,6 +138,9 @@ body {
   width: 21.46px;
   height: 167px;
   position: absolute;
+
+  /* left: 30%;
+  top: -20px; */
   left: 134px;
   top: 18px;
 }
