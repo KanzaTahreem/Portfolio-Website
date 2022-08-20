@@ -344,7 +344,12 @@ button:disabled {
   margin-right: 0;
 }
 
-.project-btn {
+.resume-btn {
+  order: 3;
+}
+
+.project-btn,
+.resume-btn {
   padding: 12px;
   border: 1px solid #7f8cff;
   background-color: white;
@@ -358,19 +363,22 @@ button:disabled {
   margin: 24px 0 12px 0;
 }
 
-.project-btn:hover {
+.project-btn:hover,
+.resume-btn:hover {
   background-color: #6070ff;
   color: white;
   box-shadow: 0 8px 16px #4053fc3d;
   cursor: pointer;
 }
 
-.project-btn:active {
+.project-btn:active,
+.resume-btn:active {
   background-color: #2230d2;
   color: white;
 }
 
-.project-btn:disabled {
+.project-btn:disabled,
+.resume-btn:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
 }
