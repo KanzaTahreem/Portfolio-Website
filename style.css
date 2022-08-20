@@ -165,3 +165,31 @@ body {
   color: #344563;
   order: 1;
 }
+
+#connect {
+  color: #7f8cff;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 15px;
+  font-weight: 500;
+  order: 2;
+}
+
+#social-icons {
+  display: flex;
+  order: 3;
+}
+
+.icons {
+  color: #505f79;
+  padding: 15px 18px 0 0;
+  font-size: 20px;
+}
+
+.icons:hover {
+  color: #6070ff;
+}
+
+.icons:active {
+  color: #2230d2;
+}
