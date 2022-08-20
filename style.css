@@ -13,9 +13,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#body-wrapper {
+#header {
   background-color: white;
-  border-bottom-left-radius: 50px;
 }
 
 #nav-bar {
@@ -156,6 +155,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  background-color: white;
+  border-bottom-left-radius: 50px;
 }
 
 #headline-text {
