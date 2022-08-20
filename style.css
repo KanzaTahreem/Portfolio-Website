@@ -17,7 +17,7 @@ header {
   background-color: white;
 }
 
-#nav-bar {
+#top-bar {
   display: flex;
   justify-content: space-between;
   padding: 42px 24px 24px 24px;
@@ -28,12 +28,22 @@ header {
 
 #logo {
   text-decoration: none;
+  color: #6070ff;
 }
 
-#menu {
+#nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.desc ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#nav-bar > ul {
+  list-style-type: none;
 }
 
 .ell-3 {
@@ -313,11 +323,6 @@ button:disabled {
   line-height: 24px;
   color: #344563;
   padding-bottom: 16px;
-}
-
-.desc ul {
-  list-style-type: none;
-  display: flex;
 }
 
 .desc li {
