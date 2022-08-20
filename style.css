@@ -160,7 +160,7 @@ header {
   border-bottom-left-radius: 50px;
 }
 
-#headline-text {
+.headline-text {
   width: 60vw;
   font-weight: 700;
   font-size: 40px;
@@ -170,7 +170,7 @@ header {
   order: 0;
 }
 
-#supporting-text {
+.supporting-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -178,7 +178,7 @@ header {
   order: 1;
 }
 
-#connect {
+.connect {
   align-self: flex-start;
   color: #7f8cff;
   font-size: 18px;
@@ -192,13 +192,13 @@ header {
   background-color: white;
 }
 
-#connect:hover {
+.connect:hover {
   background-color: white;
   color: #7f8cff;
   box-shadow: unset;
 }
 
-#connect:active {
+.connect:active {
   background-color: white;
   color: #7f8cff;
 }
@@ -231,7 +231,7 @@ button:disabled {
   color: #5e6c84;
 }
 
-#social-icons {
+.social-icons {
   display: flex;
   order: 3;
 }
