@@ -193,3 +193,31 @@ body {
 .icons:active {
   color: #2230d2;
 }
+
+button {
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px #4053fc3d;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
+}
