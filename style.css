@@ -42,6 +42,11 @@ header {
   display: flex;
 }
 
+.about-me-social-icons ul {
+  list-style-type: none;
+  display: flex;
+}
+
 #nav-bar > ul {
   list-style-type: none;
 }
