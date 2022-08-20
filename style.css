@@ -27,6 +27,10 @@ body {
   font-size: 18px;
 }
 
+#logo {
+  text-decoration: none;
+}
+
 #menu {
   display: flex;
   justify-content: center;
@@ -173,35 +177,32 @@ body {
 }
 
 #connect {
+  align-self: flex-start;
   color: #7f8cff;
   font-size: 18px;
   line-height: 24px;
-  padding-top: 15px;
+  margin-top: 15px;
   font-weight: 500;
   order: 2;
+  border: none;
+  padding: 12px 0;
+  cursor: pointer;
+  background-color: white;
 }
 
-#social-icons {
-  display: flex;
-  order: 3;
+#connect:hover {
+  background-color: white;
+  color: #7f8cff;
+  box-shadow: unset;
 }
 
-.icons {
-  color: #505f79;
-  padding: 15px 18px 0 0;
-  font-size: 20px;
-}
-
-.icons:hover {
-  color: #6070ff;
-}
-
-.icons:active {
-  color: #2230d2;
+#connect:active {
+  background-color: white;
+  color: #7f8cff;
 }
 
 button {
-  padding: 12px;
+  padding: 12;
   border: 1px solid #7f8cff;
   background-color: white;
   border-radius: 8px;
@@ -226,4 +227,19 @@ button:active {
 button:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
+}
+
+#social-icons {
+  display: flex;
+  order: 3;
+}
+
+.icons {
+  color: #505f79;
+  padding: 10px 18px 0 0;
+  font-size: 20px;
+}
+
+.icons:hover {
+  color: #6070ff;
 }
