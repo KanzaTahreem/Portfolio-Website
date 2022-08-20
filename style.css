@@ -58,9 +58,6 @@ header {
   width: 11px;
   height: 10px;
   position: absolute;
-
-  /* top: 10%;
-  left: 30%; */
   top: 100px;
   left: 132.98px;
 }
@@ -142,16 +139,11 @@ header {
   width: 21.46px;
   height: 167px;
   position: absolute;
-
-  /* left: 30%;
-  top: -20px; */
   left: 134px;
   top: 18px;
 }
 
 #headline {
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 124px 24px;
   display: flex;
   flex-direction: column;
@@ -167,7 +159,6 @@ header {
   line-height: 52px;
   color: #172b4d;
   padding-bottom: 12px;
-  order: 0;
 }
 
 .supporting-text {
@@ -175,7 +166,6 @@ header {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  order: 1;
 }
 
 .connect {
@@ -185,7 +175,6 @@ header {
   line-height: 24px;
   margin-top: 15px;
   font-weight: 500;
-  order: 2;
   border: none;
   padding: 12px 0;
   cursor: pointer;
@@ -204,7 +193,7 @@ header {
 }
 
 button {
-  padding: 12;
+  padding: 12px;
   border: 1px solid #7f8cff;
   background-color: white;
   border-radius: 8px;
@@ -233,7 +222,6 @@ button:disabled {
 
 .social-icons {
   display: flex;
-  order: 3;
 }
 
 .icons {
@@ -260,6 +248,10 @@ button:disabled {
 
 .card:first-child {
   margin-top: 100px;
+}
+
+.card:last-child {
+  margin-bottom: 100px;
 }
 
 .inner-card {
@@ -340,12 +332,17 @@ button:disabled {
   margin-right: 8px;
 }
 
-.desc li:last-child {
-  margin-right: 0;
+.item-1-desc li {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 9px 12px;
 }
 
-.resume-btn {
-  order: 3;
+.desc li:last-child {
+  margin-right: 0;
 }
 
 .project-btn,
@@ -392,4 +389,48 @@ button:disabled {
   position: relative;
   background-color: white;
   border-top-right-radius: 50px;
+}
+
+#about-me-footer {
+  padding: 12px;
+}
+
+.skills {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0 12px 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.skill-item:first-child {
+  border-bottom: none;
+  flex-direction: column;
+}
+
+.item-1-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-1-desc {
+  list-style-type: none;
+  padding-top: 24px 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.item-1-desc img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
 }
