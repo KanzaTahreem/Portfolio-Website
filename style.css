@@ -24,7 +24,6 @@ header {
   font-weight: 700;
   color: #6070ff;
   font-size: 18px;
-  overflow: hidden;
 }
 
 #logo {
@@ -150,6 +149,7 @@ header {
   position: relative;
   background-color: white;
   border-bottom-left-radius: 50px;
+  overflow: hidden;
 }
 
 .headline-text {
