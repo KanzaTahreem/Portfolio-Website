@@ -42,11 +42,6 @@ header {
   display: flex;
 }
 
-.about-me-social-icons ul {
-  list-style-type: none;
-  display: flex;
-}
-
 .social-icons > ul {
   display: flex;
   list-style-type: none;
@@ -212,34 +207,6 @@ header {
   color: #7f8cff;
 }
 
-button {
-  padding: 12px;
-  border: 1px solid #7f8cff;
-  background-color: white;
-  border-radius: 8px;
-  font-size: 17px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-button:hover {
-  background-color: #6070ff;
-  color: white;
-  box-shadow: 0 8px 16px #4053fc3d;
-}
-
-button:active {
-  background-color: #2230d2;
-  color: white;
-}
-
-button:disabled {
-  border: 1px solid #c1c7d0;
-  color: #5e6c84;
-}
-
 .icons {
   color: #505f79;
   padding: 10px 18px 0 0;
@@ -343,17 +310,13 @@ button:disabled {
   margin-right: 8px;
 }
 
-.item-1-desc li {
+.item-1-list li {
   display: flex;
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
   margin: 12px 0;
   padding: 9px 12px;
-}
-
-.desc li:last-child {
-  margin-right: 0;
 }
 
 .project-btn,
@@ -392,27 +355,17 @@ button:disabled {
 }
 
 #about-me {
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 124px 24px 120px 24px;
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: white;
   border-top-right-radius: 50px;
 }
 
-#about-me-footer {
-  padding: 12px;
-}
-
 .skills {
-  list-style-type: none;
+  padding: 12px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  display: flex;
-  flex-direction: column;
 }
 
 .skill-item {
@@ -432,16 +385,11 @@ button:disabled {
   justify-content: space-between;
 }
 
-.item-1-desc {
-  list-style-type: none;
-  padding-top: 24px 0;
+.item-1-list {
   font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
 }
 
-.item-1-desc img {
+.item-1-list img {
   width: 48px;
-  height: 48px;
   margin-right: 16px;
 }
