@@ -51,112 +51,6 @@ header {
   list-style-type: none;
 }
 
-.ell-3 {
-  width: 105px;
-  height: 105px;
-  position: absolute;
-  right: 0;
-  top: 68px;
-  transform: translateX(25px);
-}
-
-.ell-4 {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  bottom: 38px;
-  right: 133px;
-}
-
-.ell-5 {
-  width: 11px;
-  height: 10px;
-  position: absolute;
-  top: 100px;
-  left: 132.98px;
-}
-
-.ell-8 {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 1%;
-  left: 55%;
-}
-
-.ell-11 {
-  width: 38.5px;
-  height: 19.25px;
-  position: absolute;
-  top: 38px;
-  left: -10px;
-}
-
-.ell-12 {
-  width: 24.14px;
-  height: 12.07px;
-  position: absolute;
-  bottom: 28%;
-  right: 10%;
-  transform: rotate(5deg);
-}
-
-.ell-14 {
-  width: 11px;
-  height: 11px;
-  position: absolute;
-  top: 38%;
-  right: 18%;
-}
-
-.ell-13 {
-  width: 30.1px;
-  height: 30.1px;
-  position: absolute;
-  bottom: 24%;
-  right: 11%;
-}
-
-.ell-15 {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  bottom: 10%;
-  left: 14%;
-}
-
-.rec-4 {
-  width: 87px;
-  height: 70px;
-  position: absolute;
-  right: -5px;
-  top: 30px;
-}
-
-.rec-5 {
-  width: 68.06px;
-  height: 41.18px;
-  position: absolute;
-  right: 136px;
-  bottom: 22px;
-}
-
-.rec-6 {
-  width: 51.99px;
-  height: 40.3px;
-  position: absolute;
-  left: -22px;
-  top: 18px;
-}
-
-.rec-7 {
-  width: 21.46px;
-  height: 167px;
-  position: absolute;
-  left: 134px;
-  top: 18px;
-}
-
 #headline {
   padding: 124px 24px;
   display: flex;
@@ -165,6 +59,35 @@ header {
   background-color: white;
   border-bottom-left-radius: 50px;
   overflow: hidden;
+  background-image:
+    url('./images/first-section/img-01.svg'),
+    url('./images/first-section/img-02.svg'),
+    url('./images/first-section/img-03.svg'),
+    url('./images/first-section/img-04.svg'),
+    url('./images/first-section/img-05.svg'),
+    url('./images/first-section/img-06.svg'),
+    url('./images/first-section/img-07.svg'),
+    url('./images/first-section/img-08.svg'),
+    url('./images/first-section/img-09.svg'),
+    url('./images/first-section/img-10.svg'),
+    url('./images/first-section/img-11.svg'),
+    url('./images/first-section/img-12.svg'),
+    url('./images/first-section/img-13.svg');
+  background-position:
+    top 2% left,
+    top 4% left,
+    top 11% left 40%,
+    top 10% left 42%,
+    top 1% left 60%,
+    top 6.5% right,
+    top 13% right,
+    top 36% right 18%,
+    bottom 27% right 12%,
+    bottom 24% right 14%,
+    bottom 8% left 16%,
+    bottom 5.5% right 32%,
+    bottom 3% right 37%;
+  background-repeat: no-repeat;
 }
 
 .headline-text {
