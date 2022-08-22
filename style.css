@@ -26,12 +26,12 @@ header {
   font-size: 18px;
 }
 
-#logo {
+.logo {
   text-decoration: none;
   color: #6070ff;
 }
 
-#nav-bar {
+.nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ header {
   list-style-type: none;
 }
 
-#nav-bar > ul {
+.nav-bar > ul {
   list-style-type: none;
 }
 
@@ -245,13 +245,6 @@ header {
   justify-content: center;
 }
 
-.inner-card img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 .desc {
   display: flex;
   flex-direction: column;
@@ -259,18 +252,13 @@ header {
 }
 
 .desc h3 {
-  font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
   color: #172b4d;
-  padding: 12px 0 20px 0;
+  padding: 12px 0;
 }
 
 .desc h4 {
-  display: flex;
   font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
   color: #344563;
   text-transform: uppercase;
   padding-bottom: 20px;
