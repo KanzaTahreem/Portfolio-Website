@@ -231,7 +231,8 @@ header {
 }
 
 .project-btn,
-.resume-btn {
+.resume-btn,
+#form-btn {
   padding: 12px;
   border: 1px solid #7f8cff;
   background-color: white;
@@ -246,7 +247,8 @@ header {
 }
 
 .project-btn:hover,
-.resume-btn:hover {
+.resume-btn:hover,
+#form-btn:hover {
   background-color: #6070ff;
   color: white;
   box-shadow: 0 8px 16px #4053fc3d;
@@ -254,13 +256,15 @@ header {
 }
 
 .project-btn:active,
-.resume-btn:active {
+.resume-btn:active,
+#form-btn:active {
   background-color: #2230d2;
   color: white;
 }
 
 .project-btn:disabled,
-.resume-btn:disabled {
+.resume-btn:disabled,
+#form-btn:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
 }
