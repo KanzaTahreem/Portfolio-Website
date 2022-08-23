@@ -384,3 +384,7 @@ header {
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
+
+#form > input {
+  font-family: 'Poppins', sans-serif;
+}
