@@ -127,6 +127,12 @@ header {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 768px) {
+  #headline {
+    background-image: url('./images/dekstop-version/header-background-desktop.svg');
+  }
+}
+
 .headline-text {
   width: 60vw;
   font-weight: 700;
