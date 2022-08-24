@@ -37,6 +37,44 @@ header {
   align-items: center;
 }
 
+.main-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #344563;
+  padding-left: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .bar-menu {
+    display: none;
+  }
+
+  #top-bar {
+    padding: 25px 100px 24px 100px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  }
+
+  main {
+    padding-top: 76px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-menu {
+    display: none;
+  }
+}
+
 .desc ul {
   list-style-type: none;
   display: flex;
@@ -55,7 +93,6 @@ header {
   padding: 124px 24px;
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: white;
   border-bottom-left-radius: 50px;
   overflow: hidden;
