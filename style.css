@@ -334,8 +334,8 @@ header {
 
   .inner-card {
     padding: 24px;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -566,4 +566,40 @@ header {
 
 #form > input {
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  #about-me {
+    padding: 124px 200px 124px 200px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about-me > div {
+    width: 35vw;
+  }
+
+  .about-me-headline {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-bottom: 12px;
+  }
+
+  .skills {
+    padding: 0;
+  }
+
+  .item-1-list ul {
+    display: flex;
+  }
+
+  .item-1-list li {
+    flex-direction: column;
+    width: 120px;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 20px 20px 20px 15px;
+  }
 }
