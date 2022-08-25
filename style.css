@@ -602,4 +602,19 @@ header {
     margin-top: 30px;
     padding: 20px 20px 20px 15px;
   }
+
+  .contact-wrapper > div {
+    width: 42vw;
+    margin: 20px auto;
+  }
+
+  #contact-form > div {
+    background-image: url('./images/dekstop-version/contact-form-desktop.svg');
+    background-size: contain;
+  }
+
+  form {
+    width: 32vw;
+    margin: 0 auto;
+  }
 }
