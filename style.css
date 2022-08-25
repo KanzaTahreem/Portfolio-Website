@@ -257,6 +257,17 @@ header {
   justify-content: center;
 }
 
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  width: 100%;
+}
+
+.inner-card img {
+  width: 100%;
+}
+
 .desc {
   display: flex;
   flex-direction: column;
@@ -312,6 +323,87 @@ header {
   color: #6070ff;
   letter-spacing: 0.03em;
   margin-right: 8px;
+}
+
+@media screen and (min-width: 1000px) {
+  .card {
+    margin: 60px 130px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e6;
+  }
+
+  .inner-card {
+    padding: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .inner-card img {
+    opacity: 0;
+  }
+
+  .card-1 {
+    background-image: url('./images/dekstop-version/desktop-portfolio-01.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .card-2 {
+    background-image: url('./images/dekstop-version/desktop-portfolio-02.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .card-3 {
+    background-image: url('./images/dekstop-version/desktop-portfolio-03.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .card-4 {
+    background-image: url('./images/dekstop-version/desktop-portfolio-04.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .desc {
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .desc h3 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #344563;
+    padding-bottom: 20px;
+  }
+
+  .desc h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #091e42;
+    padding-bottom: 32px;
+  }
+
+  .desc p {
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+
+  .desc span {
+    color: #6b778c;
+    font-weight: 400;
+  }
+
+  .project-btn {
+    margin: 45px 0;
+  }
 }
 
 .item-1-list li {
