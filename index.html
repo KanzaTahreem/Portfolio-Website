@@ -193,7 +193,7 @@
         <section id="about-me">
           <div>
             <div class="text-wrapper">
-              <h2 class="about-me-headline">About Myself</h2>
+              <h2 class="headline-text about-me-headline">About Myself</h2>
               <p class="supporting-text about-me-text">
                 Hello I'm a software developer! I can help you build a product,
                 feature or website Look through some of my work and experience!
@@ -304,35 +304,36 @@
                 feature that you need built or a project that needs coding. I'd
                 love to help with it
               </p>
+
+              <form
+                action="https://formspree.io/f/mjvzkyre"
+                method="post"
+                id="form"
+              >
+                <input
+                  type="text"
+                  id="text"
+                  maxlength="30"
+                  placeholder="Enter your name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <textarea
+                  name="comment"
+                  id="comment"
+                  maxlength="500"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+                <button type="submit" id="form-btn">Get In Touch</button>
+              </form>
             </div>
-            <form
-              action="https://formspree.io/f/mjvzkyre"
-              method="post"
-              id="form"
-            >
-              <input
-                type="text"
-                id="text"
-                maxlength="30"
-                placeholder="Enter your name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-                required
-              />
-              <textarea
-                name="comment"
-                id="comment"
-                maxlength="500"
-                placeholder="Write your message here"
-                required
-              ></textarea>
-              <button type="submit" id="form-btn">Get In Touch</button>
-            </form>
             <span>
               <img
                 src="./images/third-section/footer-img.svg"
