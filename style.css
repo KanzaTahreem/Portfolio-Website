@@ -414,6 +414,23 @@ header {
     transition: all 0.2s ease-in;
   }
 
+  .headline-text,
+  .supporting-text {
+    animation: fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
   .item-1-list li {
     flex-direction: column;
     width: 120px;
