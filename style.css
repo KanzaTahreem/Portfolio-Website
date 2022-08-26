@@ -410,6 +410,18 @@ header {
     padding-top: 76px;
   }
 
+  .main-menu li {
+    transition: all 0.2s ease-in;
+  }
+
+  .main-menu li:hover {
+    transform: scale(1.1);
+  }
+
+  .main-menu a:hover {
+    color: #2230d2;
+  }
+
   .headline {
     background-image: url('./images/dekstop-version/header-bg.svg');
     background-size: contain;
@@ -584,6 +596,14 @@ header {
     color: #091e42;
     padding: 0 0 12px 0;
     width: 18vw;
+  }
+
+  .button {
+    transition: all 0.2s ease-in;
+  }
+
+  .button:hover {
+    transform: scale(1.1);
   }
 }
 
