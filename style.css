@@ -414,6 +414,14 @@ header {
     transition: all 0.2s ease-in;
   }
 
+  .item-1-list li {
+    flex-direction: column;
+    width: 120px;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 20px 20px 20px 15px;
+  }
+
   .main-menu li:hover {
     transform: scale(1.1);
   }
@@ -579,14 +587,6 @@ header {
 
   .item-1-list ul {
     display: flex;
-  }
-
-  .item-1-list li {
-    flex-direction: column;
-    width: 120px;
-    margin-right: 15px;
-    margin-top: 30px;
-    padding: 20px 20px 20px 15px;
   }
 
   .about-title {
