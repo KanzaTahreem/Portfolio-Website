@@ -388,6 +388,12 @@ header {
   font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 767px) {
+  .main-menu {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .bar-menu {
     display: none;
@@ -403,37 +409,18 @@ header {
   main {
     padding-top: 76px;
   }
-}
 
-@media screen and (max-width: 767px) {
-  .main-menu {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
   .headline {
     background-image: url('./images/dekstop-version/header-bg.svg');
     background-size: contain;
     background-position: center;
     padding: 100px 24px;
+    border-bottom-left-radius: 100px;
   }
 
   .headline > div {
-    width: 67vw;
+    width: 72vw;
     margin: 88px auto;
-  }
-
-  .headline-text {
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    padding-top: 40px;
-  }
-
-  .supporting-text {
-    font-size: 20px;
-    line-height: 28px;
   }
 
   .card {
@@ -480,11 +467,26 @@ header {
     width: 100%;
   }
 
+  .reverse {
+    flex-direction: row-reverse;
+    background-position: right;
+  }
+
   .desc {
     align-self: flex-start;
     width: 100%;
     margin: 0;
+    padding-right: 20px;
     justify-content: center;
+  }
+
+  .reverse .desc {
+    padding-left: 20px;
+  }
+
+  .highlight {
+    border: 2px solid #a7aeff;
+    box-shadow: 1px 20px 20px lightgrey;
   }
 
   .desc h3 {
@@ -512,10 +514,6 @@ header {
     font-weight: 400;
   }
 
-  .project-btn {
-    margin-top: 45px;
-  }
-
   .about > div {
     display: flex;
     justify-content: space-between;
@@ -540,7 +538,7 @@ header {
   }
 
   form {
-    width: 32vw;
+    width: 40vw;
     margin: 0 auto;
   }
 
@@ -586,6 +584,65 @@ header {
     color: #091e42;
     padding: 0 0 12px 0;
     width: 18vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-bar {
+    padding: 25px 100px;
+  }
+
+  .main-menu a {
+    padding-left: 28px;
+  }
+
+  .headline-text {
+    font-size: 36px;
+  }
+
+  .desc h3 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  .desc h4 {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+
+  .desc p {
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+
+  .project-btn {
+    margin: 20px 0;
+  }
+
+  .about-content {
+    width: 30vw;
+  }
+
+  .skills {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .headline-text {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    padding-top: 40px;
+  }
+
+  .supporting-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .project-btn {
+    margin-top: 45px;
   }
 }
 
