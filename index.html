@@ -14,30 +14,37 @@
   <body>
     <div id="body-wrapper">
       <header>
-        <div id="top-bar">
+        <div class="top-bar">
           <a href="#" class="logo">My Logo</a>
           <nav class="nav-bar">
-            <ul>
+            <ul class="bar-menu">
               <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            <ul class="main-menu">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
+
       <main>
-        <section id="headline">
-          <div class="text-wrapper">
-            <h2 class="headline-text">I'm Kanza. Glad to see you!</h2>
+        <section class="headline">
+          <div>
+            <h2 class="headline-text">
+              I'm Kanza. <br />
+              Glad to see you!
+            </h2>
             <p class="supporting-text">
               I'm a software developer! I can help you build a product , feature
               or website Look through some of my work and experience! If you
               like what you see and have a project you need coded, don't
               hestiate to contact me.
             </p>
-          </div>
+            <button type="button" class="connect">LET'S CONNECT</button>
 
-          <button type="button" class="connect">LET'S CONNECT</button>
-          <div class="social-icons">
-            <ul>
+            <ul class="social-icons">
               <li>
                 <a
                   class="icons"
@@ -84,12 +91,12 @@
           </div>
         </section>
 
-        <section id="recent-work">
+        <section class="recent-work">
           <div class="card">
             <div class="inner-card">
-              <div>
+              <div class="card-img card-1">
                 <img
-                  src="./images/second-section/Snapshoot-01.png"
+                  src="./images/second-section/project-01.svg"
                   alt="Snapshoot"
                 />
               </div>
@@ -105,15 +112,17 @@
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
-                <button type="button" class="project-btn">See Project</button>
+                <button type="button" class="project-btn button">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
           <div class="card">
-            <div class="inner-card">
-              <div>
+            <div class="inner-card reverse">
+              <div class="card-img card-2 reverse">
                 <img
-                  src="./images/second-section/Snapshoot-02.png"
+                  src="./images/second-section/project-02.svg"
                   alt="Snapshoot"
                 />
               </div>
@@ -129,15 +138,17 @@
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
-                <button type="button" class="project-btn">See Project</button>
+                <button type="button" class="project-btn button">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card highlight">
             <div class="inner-card">
-              <div>
+              <div class="card-img card-3">
                 <img
-                  src="./images/second-section/Snapshoot-03.png"
+                  src="./images/second-section/project-03.svg"
                   alt="Snapshoot"
                 />
               </div>
@@ -153,15 +164,17 @@
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
-                <button type="button" class="project-btn">See Project</button>
+                <button type="button" class="project-btn button">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
           <div class="card">
-            <div class="inner-card">
-              <div>
+            <div class="inner-card reverse">
+              <div class="card-img card-4">
                 <img
-                  src="./images/second-section/Snapshoot-04.png"
+                  src="./images/second-section/project-04.svg"
                   alt="Snapshoot"
                 />
               </div>
@@ -177,153 +190,163 @@
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
-                <button type="button" class="project-btn">See Project</button>
+                <button type="button" class="project-btn button">
+                  See Project
+                </button>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="about-me">
-          <div class="text-wrapper">
-            <h2 class="headline-text">About Myself</h2>
-            <p class="supporting-text">
-              Hello I'm a software developer! I can help you build a product,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don't
-              hestiate to contact me.
-            </p>
-          </div>
-          <button type="button" class="connect">LET'S CONNECT</button>
-          <div class="social-icons">
-            <ul>
-              <li>
-                <a
-                  title="link"
-                  class="icons"
-                  href="https://github.com/KanzaTahreem"
-                  target="_blank"
-                  rel="noopener"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  title="link"
-                  class="icons"
-                  href="https://www.linkedin.com/in/kanza-tahreem/"
-                  target="_blank"
-                  rel="noopener"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  title="link"
-                  class="icons"
-                  href="#"
-                  target="_blank"
-                  rel="noopener"
-                  ><i class="fa-brands fa-angellist"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  title="link"
-                  class="icons"
-                  href="https://twitter.com/kanza_tahreem"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <i class="fa-brands fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  title="link"
-                  class="icons"
-                  href="mailto:tehreemmsk411@gmail.com"
-                  target="_blank"
-                  rel="noopener"
-                  ><i class="fa-solid fa-m"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <button type="button" class="resume-btn">Get my resume</button>
-          <div class="skills">
-            <ul>
-              <li class="skill-item">
-                <div class="item-1-header">
-                  Languages <i class="fa-solid fa-angle-down down arrow"></i>
-                </div>
-                <div class="item-1-list">
-                  <ul>
-                    <li>
-                      <img
-                        src="./images/second-section/JavaScript.svg"
-                        alt=""
-                      />
-                      JavaScript
-                    </li>
-                    <li>
-                      <img src="./images/second-section/HTML.svg" alt="" /> HTML
-                    </li>
-                    <li>
-                      <img src="./images/second-section/CSS.svg" alt="" /> CSS
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="skill-item">
-                Frameworks <i class="fa-solid fa-angle-right next arrow"></i>
-              </li>
-              <li class="skill-item">
-                Skills <i class="fa-solid fa-angle-right next arrow"></i>
-              </li>
-            </ul>
+        <section class="about">
+          <div>
+            <div class="about-content">
+              <h2 class="headline-text about-title">About Myself</h2>
+              <p class="supporting-text about-description">
+                Hello I'm a software developer! I can help you build a product,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don't hestiate to contact me.
+              </p>
+
+              <button type="button" class="connect">LET'S CONNECT</button>
+
+              <ul class="social-icons">
+                <li>
+                  <a
+                    title="github"
+                    class="icons"
+                    href="https://github.com/KanzaTahreem"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    title="linkedin"
+                    class="icons"
+                    href="https://www.linkedin.com/in/kanza-tahreem/"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    title="angellist"
+                    class="icons"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fa-brands fa-angellist"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    title="twitter"
+                    class="icons"
+                    href="https://twitter.com/kanza_tahreem"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    title="mail"
+                    class="icons"
+                    href="mailto:tehreemmsk411@gmail.com"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fa-solid fa-m"></i
+                  ></a>
+                </li>
+              </ul>
+              <button type="button" class="resume-btn button">
+                Get my resume
+              </button>
+            </div>
+
+            <div class="skills">
+              <ul>
+                <li class="skill-item">
+                  <div class="item-1-header">
+                    Languages <i class="fa-solid fa-angle-down down arrow"></i>
+                  </div>
+                  <div class="item-1-list">
+                    <ul>
+                      <li>
+                        <img
+                          src="./images/second-section/JavaScript.svg"
+                          alt=""
+                        />
+                        JavaScript
+                      </li>
+                      <li>
+                        <img src="./images/second-section/HTML.svg" alt="" />
+                        HTML
+                      </li>
+                      <li>
+                        <img src="./images/second-section/CSS.svg" alt="" /> CSS
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  Frameworks <i class="fa-solid fa-angle-right next arrow"></i>
+                </li>
+                <li class="skill-item">
+                  Skills <i class="fa-solid fa-angle-right next arrow"></i>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
       </main>
 
       <footer>
-        <section id="contact-form">
+        <section class="contact-form">
           <div class="contact-wrapper">
             <div>
-              <h2 class="contact-headline">Contact me</h2>
-              <p class="contact-text">
+              <h2 class="contact-title">Contact me</h2>
+              <p class="contact-description">
                 If you have an application you are interested in developing, a
                 feature that you need built or a project that needs coding. I'd
                 love to help with it
               </p>
+              <form
+                action="https://formspree.io/f/mjvzkyre"
+                method="post"
+                id="form"
+              >
+                <input
+                  type="text"
+                  id="text"
+                  maxlength="30"
+                  placeholder="Enter your name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <textarea
+                  name="comment"
+                  id="comment"
+                  maxlength="500"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+                <button type="submit" class="form-btn button">
+                  Get In Touch
+                </button>
+              </form>
             </div>
-            <form
-              action="https://formspree.io/f/mjvzkyre"
-              method="post"
-              id="form"
-            >
-              <input
-                type="text"
-                id="text"
-                maxlength="30"
-                placeholder="Enter your name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-                required
-              />
-              <textarea
-                name="comment"
-                id="comment"
-                maxlength="500"
-                placeholder="Write your message here"
-                required
-              ></textarea>
-              <button type="submit" id="form-btn">Get In Touch</button>
-            </form>
             <span>
               <img
                 src="./images/third-section/footer-img.svg"
