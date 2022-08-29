@@ -9,6 +9,10 @@
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://kanzatahreem.github.io/Portfolio-Website/)
+
 ## Getting Started
 
 To get a local copy, run the fllowing command.
@@ -35,6 +39,11 @@ Run live server
 - GitHub: [@KanzaTahreem](https://github.com/KanzaTahreem)
 - Twitter: [@kanza_tahreem](https://twitter.com/kanza_tahreem)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kanza-tahreem/)
+
+👤 **Author**
+
+- GitHub: [@jfoyarzo](https://github.com/jfoyarzo)
+- Linkedin: [@Jorge Felipe](https://www.linkedin.com/in/jorge-felipe-oyarzo-contreras-647118247/)
 
 ## Show your support
 
