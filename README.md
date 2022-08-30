@@ -2,7 +2,7 @@
 
 # Portfolio Website
 
-> A simple sample portfolio build by using ['mobile first' approach](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/)
+> A simple sample portfolio build by using ['mobile first' approach](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/) to understand how to prase a Figma design to create a UI by using Flexbox and images.
 
 ## Built With
 
