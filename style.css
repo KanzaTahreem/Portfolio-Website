@@ -28,7 +28,7 @@ header {
 
 .logo {
   text-decoration: none;
-  color: #1C32FF;
+  color: #1c32ff;
 }
 
 .main-menu {
@@ -256,7 +256,7 @@ header {
   border-radius: 8px;
   font-size: 17px;
   letter-spacing: 0.03em;
-  color: #1C32FF;
+  color: #1c32ff;
   font-weight: 500;
   line-height: 24px;
   align-self: flex-start;
@@ -359,7 +359,7 @@ header {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: #ffffff;
+  color: #fff;
 }
 
 #form {
