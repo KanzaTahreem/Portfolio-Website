@@ -128,13 +128,13 @@ header {
 
 .connect:hover {
   background-color: white;
-  color: #7f8cff;
+  color: #1c32ff;
   box-shadow: unset;
 }
 
 .connect:active {
   background-color: white;
-  color: #7f8cff;
+  color: #1c32ff;
 }
 
 .icons {
@@ -144,7 +144,7 @@ header {
 }
 
 .icons:hover {
-  color: #6070ff;
+  color: #1c32ff;
 }
 
 .recent-work {
@@ -217,7 +217,7 @@ header {
   margin: 0 8px;
   width: 8px;
   height: 8px;
-  color: #c1c7d0;
+  color: #172b4d;
 }
 
 .desc p {
@@ -264,7 +264,7 @@ header {
 }
 
 .button:hover {
-  background-color: #6070ff;
+  background-color: #1c32ff;
   color: white;
   box-shadow: 0 8px 16px #4053fc3d;
   cursor: pointer;
@@ -282,6 +282,11 @@ header {
 
 .form-btn {
   align-self: center;
+}
+
+.form-btn:hover {
+  background-color:#fff;
+  color: #1c32ff;
 }
 
 .about {
