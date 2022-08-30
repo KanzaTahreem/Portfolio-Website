@@ -43,7 +43,13 @@ Run live server
 👤 **Author**
 
 - GitHub: [@jfoyarzo](https://github.com/jfoyarzo)
-- Linkedin: [@Jorge Felipe](https://www.linkedin.com/in/jorge-felipe-oyarzo-contreras-647118247/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorge-felipe-oyarzo-contreras-647118247/)
+
+👤 **Author**
+
+- GitHub [@JustoRago](https://github.com/asdt560)
+- Twitter [@JustoRago](https://twitter.com/JustoRago)
+- LinkedIn [LinkedIn](https://www.linkedin.com/in/justo-rago-0714b5208/)
 
 ## Show your support
 
