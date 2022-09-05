@@ -10,3 +10,7 @@ barMenu.addEventListener('click', () => {
 close.addEventListener('click', () => {
   popUp.classList.toggle('hidden');
 });
+
+menu.addEventListener('click', () => {
+  popUp.classList.toggle('hidden');
+});
