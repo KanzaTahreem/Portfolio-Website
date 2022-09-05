@@ -31,23 +31,6 @@ header {
   color: #1c32ff;
 }
 
-/*
-.main-menu {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-}
-
-.main-menu a {
-  text-decoration: none;
-  font-size: 0.93em;
-  font-weight: 500;
-  line-height: 1.25em;
-  color: #344563;
-  padding-left: 32px;
-}
-*/
-
 .desc ul {
   list-style-type: none;
   display: flex;
@@ -429,9 +412,37 @@ header {
   cursor: pointer;
 }
 
+.hidden {
+  display: none !important;
+}
+
 @media screen and (min-width: 768px) {
   .bar-menu {
     display: none;
+  }
+
+  .hidden {
+    display: flex !important;
+  }
+
+  .pop-up {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    width: initial;
+    height: initial;
+    gap: 2em;
+  }
+
+  .menu-item {
+    display: flex;
+    color: #344563;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 2em;
   }
 
   .top-bar {
