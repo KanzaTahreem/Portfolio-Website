@@ -31,7 +31,7 @@ window.onload = () => {
     },
   ];
 
-  let projectCardString = projectsData.map((project) => `
+  const projectCardString = projectsData.map((project) => `
     <div class="card">
     <div class="inner-card">
       <div class="card-img card-1">
@@ -57,9 +57,12 @@ window.onload = () => {
   </div>
   `);
 
+  const recentWork = document.querySelector('.recent-work');
   const parser = new DOMParser();
 
   projectCardString.forEach((projectString) => {
-    let projectElement = parser.parseFromString(projectString, 'text/html')
+    const projectElement = parser.parseFromString(projectString, 'text/html').body.firstChild;
+
+    recentWork.append(projectElement);
   });
 };
