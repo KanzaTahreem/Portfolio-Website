@@ -109,7 +109,12 @@ window.onload = () => {
               <p>${projectsData[index].subtitle} <span>${projectsData[index].techStack}</span> <span>${projectsData[index].year}</span></p>
             </div>
   
-            <div class="project-img"></div>
+            <div class="project-img">
+            <img
+            src="${projectsData[index].src}"
+            alt="Project Snapshoot"
+            /> 
+            </div>
   
             <div class="project-desc">
               <p>${projectsData[index].description}</p>
