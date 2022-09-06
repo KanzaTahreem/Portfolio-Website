@@ -56,4 +56,10 @@ window.onload = () => {
     </div>
   </div>
   `);
+
+  const parser = new DOMParser();
+
+  projectCardString.forEach((projectString) => {
+    let projectElement = parser.parseFromString(projectString, 'text/html')
+  });
 };
