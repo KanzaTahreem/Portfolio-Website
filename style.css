@@ -192,6 +192,11 @@ header {
   text-align: center;
 }
 
+.project-header span {
+  color: #7a869a;
+  text-transform: capitalize;
+}
+
 .desc h4 span {
   padding-right: 0 12px;
   color: #172b4d;
@@ -460,6 +465,7 @@ project cards popup
   font-size: 1em;
   color: #868990;
   float: right;
+  cursor: pointer;
 }
 
 .project-header {
@@ -477,11 +483,6 @@ project cards popup
   color: #344563;
   font-weight: 500;
   text-transform: uppercase;
-}
-
-.project-header span {
-  color: #7a869a;
-  text-transform: capitalize;
 }
 
 .project-header span::before {
@@ -570,6 +571,52 @@ project cards popup
     line-height: 2em;
   }
 
+  /*
+  desktop project popup
+  */
+
+  .project-popup {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #dfe1e6;
+    border-radius: 1em;
+    position: fixed;
+    top: 1em;
+    right: 7em;
+    left: 7em;
+    padding: 0.5em 1em;
+    height: 35.56em;
+    z-index: 10000;
+  }
+
+  .project-img img {
+    width: 45vw;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .project-desc {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .project-links {
+    justify-content: flex-end;
+    gap: 1em;
+    margin-top: -5em;
+    width: 68vw;
+  }
+
+  .project-desc > p {
+    width: 45vw;
+    margin-right: 4em;
+  }
+
+  .project-desc ul {
+    height: 2em;
+  }
+
   .top-bar {
     padding: 25px 130px;
     position: fixed;
@@ -647,41 +694,8 @@ project cards popup
     justify-content: space-between;
   }
 
-  .inner-card img {
-    opacity: 0;
-  }
-
-  .card-1 {
-    background-image: url('./images/dekstop-version/desktop-portfolio-01.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-
-  .card-2 {
-    background-image: url('./images/dekstop-version/desktop-portfolio-02.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-
-  .card-3 {
-    background-image: url('./images/dekstop-version/desktop-portfolio-03.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-
-  .card-4 {
-    background-image: url('./images/dekstop-version/desktop-portfolio-04.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-  }
-
-  .reverse {
+  .card:nth-child(even) .inner-card {
     flex-direction: row-reverse;
-    background-position: right;
   }
 
   .desc {
@@ -690,6 +704,7 @@ project cards popup
     margin: 0;
     padding-right: 20px;
     justify-content: center;
+    margin-left: 2em;
   }
 
   .reverse .desc {
@@ -851,10 +866,6 @@ project cards popup
     font-size: 1.25em;
     line-height: 1.5em;
   }
-
-  .project-btn {
-    margin-top: 45px;
-  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -867,7 +878,7 @@ project cards popup
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .desc h3 {
     padding-top: 20px;
   }
@@ -882,5 +893,24 @@ project cards popup
 
   .skills {
     width: 45vw;
+  }
+
+  .project-btn {
+    margin-top: 45px;
+  }
+
+  .project-popup {
+    right: 12em;
+    left: 12em;
+    height: 50em;
+  }
+
+  .project-img img {
+    width: 35vw;
+  }
+
+  .project-links {
+    margin-top: -3em;
+    width: 62vw;
   }
 }
