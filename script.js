@@ -109,26 +109,23 @@ window.onload = () => {
               <p>${projectsData[index].subtitle} <span>${projectsData[index].techStack}</span> <span>${projectsData[index].year}</span></p>
             </div>
   
-            <div class="project-img">
-            <img
-            src="${projectsData[index].src}"
-            alt="Project Snapshoot"
-            /> 
+            <div class="project-img" style="background-image: url(${projectsData[index].src})">
             </div>
   
-            <div class="project-desc">
-              <p>${projectsData[index].description}</p>
-              <ul>
-                ${projectsData[index].lang.map((tech) => `<li>${tech}</li>`).join('')}
-              </ul>
+            <div class="project-footer">
+              <p class="project-desc">${projectsData[index].description}</p>
+              <div>
+                <ul>
+                  ${projectsData[index].lang.map((tech) => `<li>${tech}</li>`).join('')}
+                </ul>
+                <span></span>
+                <div class="project-links">
+                  <a href="${projectsData[index].live}">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="${projectsData[index].source}">See Source <i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
             </div>
-  
-            <div class="project-links">
-              <a href="${projectsData[index].live}">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              <a href="${projectsData[index].source}">See Source <i class="fa-brands fa-github"></i></a>
-            </div>
-
-        </div>
+          </div>
       </div>
     `;
 
