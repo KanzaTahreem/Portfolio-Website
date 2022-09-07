@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,6 +10,10 @@ body {
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
 }
+
+/*
+Introduction
+*/
 
 header {
   background-color: white;
@@ -133,6 +135,10 @@ header {
   color: #1c32ff;
 }
 
+/*
+work-section
+*/
+
 .recent-work {
   width: 85vw;
   margin: 0 auto;
@@ -162,10 +168,7 @@ header {
   justify-content: center;
 }
 
-.card-img {
-  width: 100%;
-}
-
+.card-img,
 .inner-card img {
   width: 100%;
 }
@@ -182,10 +185,11 @@ header {
 }
 
 .desc h4 {
-  font-size: 0.8125px;
+  font-size: 1em;
   color: #172b4d;
   text-transform: uppercase;
   padding-bottom: 20px;
+  font-weight: 500;
 }
 
 .contact-wrapper span {
@@ -205,16 +209,17 @@ header {
 
 .desc h4 span {
   padding-right: 0 12px;
-  color: #172b4d;
+  color: #c1c7d0;
   text-transform: capitalize;
 }
 
-.desc span::before {
+.desc span::before,
+.project-header span::before {
   content: "•";
   margin: 0 8px;
   width: 8px;
   height: 8px;
-  color: #172b4d;
+  color: #c1c7d0;
 }
 
 .desc p {
@@ -286,6 +291,10 @@ header {
   color: #1c32ff;
 }
 
+/*
+about-me
+*/
+
 .about {
   padding: 124px 24px 120px 24px;
   display: flex;
@@ -325,6 +334,10 @@ header {
   width: 48px;
   margin-right: 16px;
 }
+
+/*
+contact form
+*/
 
 .contact-form {
   background: white;
@@ -496,14 +509,6 @@ project cards popup
   margin-bottom: 20px;
 }
 
-.project-header span::before {
-  content: '•';
-  margin: 0 8px;
-  width: 8px;
-  height: 8px;
-  color: #c1c7d0;
-}
-
 .project-img {
   min-height: 100px;
   flex: 1;
@@ -583,37 +588,6 @@ project cards popup
 
   .hidden {
     display: flex !important;
-  }
-
-  .pop-up {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    background-color: white;
-    position: relative;
-    width: initial;
-    height: initial;
-    gap: 2em;
-  }
-
-  .menu-item {
-    display: flex;
-    color: #344563;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 2em;
-  }
-
-  /*
-  desktop project popup
-  */
-
-  .project-popup {
-    left: 3em;
-    right: 3em;
-    padding: 0.5em 1em;
-    z-index: 10000;
   }
 
   .top-bar {
@@ -810,6 +784,41 @@ project cards popup
   .button:hover {
     transform: scale(1.1);
   }
+
+  /*
+  mobile menu popup
+  */
+
+  .pop-up {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    width: initial;
+    height: initial;
+    gap: 2em;
+  }
+
+  .menu-item {
+    display: flex;
+    color: #344563;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 2em;
+  }
+
+  /*
+  desktop project popup
+  */
+
+  .project-popup {
+    left: 3em;
+    right: 3em;
+    padding: 0.5em 1em;
+    z-index: 10000;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -865,6 +874,10 @@ project cards popup
     font-size: 1.25em;
     line-height: 1.5em;
   }
+
+  /*
+  project popup
+  */
 
   .project-popup {
     right: 5em;
@@ -929,6 +942,10 @@ project cards popup
   .project-btn {
     margin-top: 45px;
   }
+
+  /*
+  project popup
+  */
 
   .project-popup {
     right: 12em;
