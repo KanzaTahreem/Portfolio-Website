@@ -146,8 +146,17 @@ window.onload = () => {
     popupContainer.append(mobilePopupElement);
   });
 
+  const form = document.querySelector('#form');
+
   const isValidEmail = (email) => {
     const eamilPattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return eamilPattern.test(String(email).toLowerCase());
   };
+
+  form.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    isValidEmail(formData.get('email'));
+  });
 };
