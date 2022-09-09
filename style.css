@@ -192,10 +192,6 @@ work-section
   font-weight: 500;
 }
 
-.contact-wrapper span {
-  text-align: center;
-}
-
 .project-header span {
   color: #7a869a;
   text-transform: capitalize;
@@ -580,11 +576,19 @@ contact form validation
 */
 
 .success {
-  font-size: 2em;
+  font-size: 2.5em;
+  color: #06d206;
+  font-family: monospace;
+  letter-spacing: 3.5px;
+  font-weight: bolder;
 }
 
 .error {
-  font-size: 1em;
+  font-size: 2em;
+  color: #ab1e1e;
+  font-family: monospace;
+  letter-spacing: 3px;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 350px) {
