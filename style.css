@@ -192,10 +192,6 @@ work-section
   font-weight: 500;
 }
 
-.contact-wrapper span {
-  text-align: center;
-}
-
 .project-header span {
   color: #7a869a;
   text-transform: capitalize;
@@ -575,6 +571,26 @@ project cards popup
   margin-left: 10px;
 }
 
+/*
+contact form validation
+*/
+
+.success {
+  font-size: 2.5em;
+  color: #06d206;
+  font-family: monospace;
+  letter-spacing: 3.5px;
+  font-weight: bolder;
+}
+
+.error {
+  font-size: 2em;
+  color: #ab1e1e;
+  font-family: monospace;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 350px) {
   .project-links a {
     font-size: 11px;
@@ -739,10 +755,6 @@ project cards popup
   form {
     width: 40vw;
     margin: 0 auto;
-  }
-
-  .contact-wrapper span {
-    display: none;
   }
 
   #form input {

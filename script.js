@@ -145,4 +145,30 @@ window.onload = () => {
     recentWork.append(projectElement);
     popupContainer.append(mobilePopupElement);
   });
+
+  const form = document.querySelector('#form');
+  const messageContainer = document.querySelector('.message');
+
+  const isValidEmail = (email) => {
+    const eamilPattern = /^(([^<>()[\]\\.,;:\s@"A-Z]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
+    return eamilPattern.test(email);
+  };
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    const valid = isValidEmail(formData.get('email'));
+    if (valid) {
+      const message = document.createElement('span');
+      message.classList.add('success');
+      message.innerHTML = 'Data sent successfully! 🙌';
+      messageContainer.replaceChildren(message);
+    } else {
+      const message = document.createElement('span');
+      message.classList.add('error');
+      message.innerHTML = 'Error!⚡ Incorrect format. Enter email in lowercase';
+      messageContainer.replaceChildren(message);
+    }
+  });
 };
