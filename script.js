@@ -194,4 +194,22 @@ window.onload = () => {
     };
     saveData();
   }
+
+  name.value = formObject.name;
+  name.addEventListener('change', (e) => {
+    formObject.name = e.target.value;
+    localStorage.setItem('data', JSON.stringify(formObject));
+  });
+
+  email.value = formObject.email;
+  email.addEventListener('change', (e) => {
+    formObject.email = e.target.value;
+    localStorage.setItem('data', JSON.stringify(formObject));
+  });
+
+  comment.value = formObject.comment;
+  comment.addEventListener('change', (e) => {
+    formObject.comment = e.target.value;
+    localStorage.setItem('data', JSON.stringify(formObject));
+  });
 };
