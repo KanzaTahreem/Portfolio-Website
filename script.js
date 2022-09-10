@@ -171,4 +171,27 @@ window.onload = () => {
       messageContainer.replaceChildren(message);
     }
   });
+
+  const name = document.querySelector('#text');
+  const email = document.querySelector('#email');
+  const comment = document.querySelector('#comment');
+
+  function saveData() {
+    const data = {
+      fieldName: name.value,
+      fieldEmail: email.value,
+      fieldComment: comment.value,
+    };
+    localStorage.setItem('data', JSON.stringify(data));
+  }
+
+  let formObject = JSON.parse(localStorage.getItem('data'));
+  if (!formObject) {
+    formObject = {
+      name: '',
+      email: '',
+      comment: '',
+    };
+    saveData();
+  }
 };
