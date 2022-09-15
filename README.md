@@ -17,7 +17,7 @@
 
 To get a local copy, run the fllowing command.
 
-- `git clone git@github.com:KanzaTahreem/Hello-Microverse.git`
+- `git clone git@github.com:KanzaTahreem/Portfolio-Website.git`
 
 ### Prerequisites
 
@@ -50,6 +50,10 @@ Run live server
 - GitHub [@JustoRago](https://github.com/asdt560)
 - Twitter [@JustoRago](https://twitter.com/JustoRago)
 - LinkedIn [LinkedIn](https://www.linkedin.com/in/justo-rago-0714b5208/)
+
+👤 **Author**
+
+- GitHub [@eserengo](https://github.com/eserengo)
 
 ## Show your support
 
