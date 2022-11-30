@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kanzatahreem.github.io/Portfolio-Website/)
+[Portfolio Website](https://kanzatahreem.github.io/Portfolio-Website/)
 
 ## Getting Started
 
