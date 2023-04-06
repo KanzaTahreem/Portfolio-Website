@@ -203,7 +203,7 @@ main {
 }
 
 .supporting-text {
-  font-size: 0.73rem;
+  font-size: 1rem;
   filter: drop-shadow(3px 3px 1px lightgrey);
   font-weight: 400;
   line-height: 1.3rem;
@@ -439,7 +439,7 @@ main {
 }
 
 .desc p {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   filter: drop-shadow(3px 3px 1px lightgrey);
   line-height: 1.3rem;
   font-weight: 400;
@@ -794,6 +794,8 @@ main {
   color: #868990;
   float: right;
   cursor: pointer;
+  z-index: 10;
+  position: relative;
   transition: all 0.4s ease;
 }
 
@@ -970,7 +972,7 @@ main {
   }
 
   .desc p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .desc li,
@@ -1215,7 +1217,6 @@ main {
   }
 
   .supporting-text {
-    font-size: 0.8rem;
     line-height: 1.5em;
   }
 
