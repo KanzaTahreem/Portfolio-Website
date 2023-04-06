@@ -163,19 +163,19 @@ main {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.19);
   overflow: hidden;
   background-image:
-    url('./images/first-section/img-01.svg'),
-    url('./images/first-section/img-02.svg'),
-    url('./images/first-section/img-03.svg'),
-    url('./images/first-section/img-04.svg'),
-    url('./images/first-section/img-05.svg'),
-    url('./images/first-section/img-06.svg'),
-    url('./images/first-section/img-07.svg'),
-    url('./images/first-section/img-08.svg'),
-    url('./images/first-section/img-09.svg'),
-    url('./images/first-section/img-10.svg'),
-    url('./images/first-section/img-11.svg'),
-    url('./images/first-section/img-12.svg'),
-    url('./images/first-section/img-13.svg');
+    url('./images/headline/m_bg_01.svg'),
+    url('./images/headline/m_bg_02.svg'),
+    url('./images/headline/m_bg_03.svg'),
+    url('./images/headline/m_bg_04.svg'),
+    url('./images/headline/m_bg_05.svg'),
+    url('./images/headline/m_bg_06.svg'),
+    url('./images/headline/m_bg_07.svg'),
+    url('./images/headline/m_bg_08.svg'),
+    url('./images/headline/m_bg_09.svg'),
+    url('./images/headline/m_bg_10.svg'),
+    url('./images/headline/m_bg_11.svg'),
+    url('./images/headline/m_bg_12.svg'),
+    url('./images/headline/m_bg_13.svg');
   background-position:
     top 2% left,
     top 4% left,
@@ -219,6 +219,7 @@ main {
   margin: 1rem 0 1.25rem 0;
   padding: 0.5rem 0;
   cursor: pointer;
+  align-self: flex-start;
   background-color: transparent;
   background-color: #fff;
   transition: all 0.4s ease;
@@ -516,6 +517,7 @@ main {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  font-style: inherit;
 }
 
 .button::after,
@@ -572,6 +574,10 @@ main {
   color: #5e6c84;
 }
 
+.resume-btn {
+  margin-top: 3rem;
+}
+
 .form-btn {
   align-self: center;
   background-color: #fff;
@@ -589,6 +595,11 @@ main {
   background-color: white;
   border-top-right-radius: 50px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.19);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .skills {
@@ -697,7 +708,7 @@ main {
   padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  background-image: url('/images/third-section/background-shapes.png');
+  background-image: url('/images/contact/m_bg.png');
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -953,6 +964,12 @@ main {
   filter: drop-shadow(0 1px 2px black);
 }
 
+form > * {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
 @media screen and (max-width: 350px) {
   .project-links {
     justify-content: center;
@@ -1046,7 +1063,7 @@ main {
   }
 
   .headline {
-    background-image: url(./images/dekstop-version/header-bg.svg);
+    background-image: url('./images/headline/d_headline.svg');
     background-size: 80%;
     background-position: top center;
     border-bottom-left-radius: 100px;
@@ -1113,19 +1130,14 @@ main {
   }
 
   .contact-wrapper {
-    background-image: url('./images/dekstop-version/contact-form-desktop.svg');
+    background-image: url('./images/contact/d_bg.svg');
+    background-position: center;
     border-top-left-radius: 100px;
   }
 
   form {
     width: 35vw;
     margin: 0 auto;
-  }
-
-  form > * {
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    font-style: italic;
   }
 
   #form input {

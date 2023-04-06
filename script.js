@@ -48,7 +48,7 @@ window.onload = () => {
       subtitle: 'Book your next trip',
       techStack: 'Full Stack Dev',
       year: 2023,
-      src: './images/travelVent.jpeg',
+      src: './images/projects/TravelVent.jpeg',
       highlight: 'An app that allows users to reserve a trip to their favorite destination. Users can create an account, get all available destinations, add/delete/reserve a trip, and get a list of reservations.',
       description: 'Introducing the travel app, designed to make reserving uses\'s dream trip a breeze. With just a few taps on the device, users can reserve a trip to their favorite destination. The app\'s user-friendly interface allows users to get location, price, and amenities. USers can also get review ratings done by other travelers to help them make the best decision for your trip. Users can create an account, login, and reserve a trip. It also allows users to view all available trips, get details of a specific trip, and get a list of all reservations.',
       lang: ['Ruby on Rails', 'PostgreSql', 'JWT', 'React', 'Redux', 'Netlify'],
@@ -60,7 +60,7 @@ window.onload = () => {
       subtitle: 'Your Favorite Recipes',
       techStack: 'Full Stack Dev',
       year: 2023,
-      src: './images/recipeApp.jpeg',
+      src: './images/projects/RecipeApp.jpeg',
       highlight: 'The app allows user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what is present and what is missing from a recipe.',
       description: 'The Recipe app keeps track of all ingredients, recipes, and public recipes. It will allows users to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what is present and what is missing from a recipe. Also, since sharing recipes is an important part of cooking, the app also allows users to make them public so anyone can access them.',
       lang: ['PostgreSQL', 'Ruby On Rails', 'Render'],
@@ -72,7 +72,7 @@ window.onload = () => {
       subtitle: 'Book a trip to Space',
       techStack: 'Front End Dev',
       year: 2022,
-      src: './images/spaceTravelersHub.jpeg',
+      src: './images/projects/SpaceTravelersHub.jpeg',
       highlight: 'A Single Page App (SPA) that displays a list of Rockets & Missions by fetching real live data from SpaceX API.',
       description: 'A Single Page App (SPA) that displays a list of Rockets & Missions by fetching real live data from SpaceX API. SpaceX is a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join space missions.',
       lang: ['React', 'Redux', 'JavaScript', 'React Bootstrap'],
@@ -84,7 +84,7 @@ window.onload = () => {
       subtitle: 'Use Magic of Math',
       techStack: 'Front End Dev',
       year: 2022,
-      src: './images/mathMagicians.jpeg',
+      src: './images/projects/MathMagicians.jpeg',
       highlight: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that enables users to perform simple calculations.',
       description: 'Math Magicians is a website designed for all mathematics enthusiasts. It is a Single Page App (SPA) that enables users to perform simple calculations and read random math-related quotes. The app is built with React.js, while navigation is made possible through React Router. The project was bootstrapped with \'create react app\' and tested using React Testing Library to simulate user interactions. Additionally, all components were tested using Jest snapshots to ensure the app\'s stability.',
       lang: ['React', 'JavaScript', 'CSS'],
@@ -99,7 +99,7 @@ window.onload = () => {
         <div class="card-img card-1">
           <img
             src="${project.src}"
-            alt="Project Snapshoot"
+            alt="Project Snapshot"
           />
         </div>
         <div class="desc">
@@ -249,6 +249,7 @@ window.onload = () => {
     localStorage.setItem('data', JSON.stringify(formObject));
   });
 };
+
 // Wait for the page to load
 document.addEventListener('DOMContentLoaded', () => {
   // Get a reference to the portfolio grid
